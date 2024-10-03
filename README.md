@@ -1,11 +1,11 @@
 ### Zerotier
 
 1. 说明
-Zerotier 内网穿透工具。通过虚拟局域网的组建，方便远程调试。
+Zerotier 内网穿透工具。通过虚拟局域网的组建，远程调试公网设备。
 2. 软件下载
 Android开源实现 https://github.com/kaaass/ZerotierFix
 Android自己编译 
-（填入指定的"网络ID"）
+（需填入自己的"网络ID", NetworkListActivity.java 第64行）
 PC端 https://www.zerotier.com/
 3. 配置
 3.1 官网后台配置
