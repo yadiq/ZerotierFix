@@ -1,38 +1,18 @@
-# ZerotierFix
+### Zerotier
 
-#### 介绍
+1. 说明
 Zerotier 内网穿透工具。通过虚拟局域网的组建，方便远程调试。
-
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+2. 软件下载
+Android开源实现 https://github.com/kaaass/ZerotierFix
+Android自己编译 
+（填入指定的"网络ID"）
+PC端 https://www.zerotier.com/
+3. 配置
+3.1 官网后台配置
+注册账户
+创建私有局域网，获得 Network ID
+3.2 PC客户端配置
+安装PC客户端，加入 Network ID
+3.3 Android客户端配置
+APP启动后，会自动添加一个网络ID，打开开关同意添加VPN链接。等待授权。
+后台授权刚刚接入的设备，授权后可看到局域网ip。
