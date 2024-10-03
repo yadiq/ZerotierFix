@@ -41,9 +41,9 @@ android {
         variant.outputs.all {
             def fileName
             if (variant.buildType.name.equals('release')) {
-                fileName = "实暻网络工具_${variant.mergedFlavor.versionName}.apk"
+                fileName = "内网穿透_${variant.mergedFlavor.versionName}.apk"
             } else if (variant.buildType.name.equals('debug')) {
-                fileName = "实暻网络工具_${variant.mergedFlavor.versionName}_debug.apk"
+                fileName = "内网穿透_${variant.mergedFlavor.versionName}_debug.apk"
             }
             outputFileName = fileName
         }
