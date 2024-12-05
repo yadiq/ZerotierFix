@@ -60,7 +60,7 @@ public class NetworkListActivity extends SingleFragmentActivity {
             sharedPreferences.edit().putBoolean(Constants.PREF_NETWORK_USE_CELLULAR_DATA, true).apply();
             //添加Planet文件
             //addPlanetFile("http://planet.zerotier.epplink.com:3300/planet?key=d47c3b3d6adc84ca");
-            //添加网络 TODO
+            //添加自己的 Network ID TODO
             joinNetwork("ebe7fbd4452b324b");
             //更新网络列表
             Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.fragmentContainer);
